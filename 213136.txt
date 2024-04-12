@@ -1,0 +1,52 @@
+1 cekor. cd Desktop, cd SI_2024_lab1_213136
+2 cekor. git init
+3 cekor. git remote add origin https://github.com/Aleksovska12/SI_2024_lab1_213136.git
+4 cekor. nano README.md 
+5 cekor. git add README.md
+6 cekor. git commit -m "Initial commit" 
+7 cekor. git add *.java
+8 cekor. git commit -m "Add starter code" 
+9 cekor. git branch bug1 
+10 cekor. git branch bug2
+11 cekor. git checkout bug1 
+12 cekor. nano SILab1_1.java 
+13 cekor. git add SILab1_1.java 
+14 cekor. git commit -m "Fix wrong condition in filterOddLengthStrings" 
+15 cekor. git checkout bug2  
+16 cekor. nano SILab1_2.java 
+17 cekor. git add SILab1_2.java 
+18 cekor. git commit -m "Fix wrong condition in makeBigStringFrom"
+19 cekor. git checkout bug1  
+20 cekor. nano SILab1Main.java
+21 cekor. git add SILab1Main.java 
+22 cekor. git commit -m "Call method filterOddLengthStrings in main class"
+23 cekor. git checkout bug2 
+24 cekor. nano SILab1Main.java 
+25 cekor. git add SILab1Main.java  
+26 cekor. git commit -m "Call method makeBigStringFrom in main class"
+27 cekor. git push  -u origin master 
+28 cekor. git push -u origin bug1 
+29 cekor. git push  -u origin bug2
+30 cekor. git checkout master 
+31 cekor. git merge bug1 // Fast-forward  
+32 cekor. git push  -u origin master 
+33 cekor. git push -u origin bug1 
+34 cekor. git push  -u origin bug2
+35 cekor. git checkout bug2 
+36 cekor. git rebase master // konflikt 
+37 cekor. nano SILab1Main.java // konfliktot e razresen so brisenje linii
+38 cekor. git add SILab1Main.java 
+39 cekor. git commit -m "Call method makeBigStringFrom in main class"
+40 cekor. git rebase --continue
+41 cekor. git checkout master
+42 cekor. git merge bug2 // Fast-forward 
+43 cekor. git push origin master
+44 cekor. git push origin bug1  
+45 cekor. git push --force origin bug2
+46 cekor. git log //tuka pravam nano logs.txt i potoa 213136.txt
+47 cekor. git add *.txt 
+48 cekor. git commit -m "Final commit" 
+49 cekor. git push  -u origin master 
+50 cekor. git push -u origin bug1  
+51 cekor. git push  -u origin bug2
+

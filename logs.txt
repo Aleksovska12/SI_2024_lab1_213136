@@ -1,0 +1,49 @@
+Elena@DESKTOP-TD6V4N7 MINGW64 ~/Desktop/SI_2024_lab1_213136 (master)
+$ git log
+commit 121d478f1044e2e2a02f2ba3e29bb36f5a4b2a8e (HEAD -> master, origin/master, origin/bug2, bug2)
+Author: Elena <elena.aleksovska@students.finki.ukim.mk>
+Date:   Fri Apr 12 21:54:42 2024 +0200
+
+    Call method makeBigStringFrom in main class
+
+commit c12ea62ab45688f01bca5b050b286127ddffc844
+Author: aleksovska.elena29 <aleksovsla.elena29@gmail.com>
+Date:   Fri Apr 12 21:33:10 2024 +0200
+
+    Fix wrong condition in makeBigStringFrom
+
+commit b0b9c5b15bfb9a81bec69f85f6544faecb94e1e7 (origin/bug1, bug1)
+Author: aleksovska.elena29 <aleksovsla.elena29@gmail.com>
+Date:   Fri Apr 12 21:35:42 2024 +0200
+
+    Call method filterOddLengthStrings in main class
+
+commit 365f3e6e1b8a169813550d34b1005555e60afc9c
+Author: aleksovska.elena29 <aleksovsla.elena29@gmail.com>
+Date:   Fri Apr 12 21:31:24 2024 +0200
+
+    Fix wrong condition in filterOddLengthStrings
+
+commit 9069a559b167a258cc57e1016fcdbaad9a0d7378
+Author: aleksovska.elena29 <aleksovsla.elena29@gmail.com>
+Date:   Fri Apr 12 21:21:45 2024 +0200
+
+    Initial commit
+
+commit 7ad0a3e86b227cafde774ec4aab374bc7c9b8168
+Author: aleksovska.elena29 <aleksovsla.elena29@gmail.com>
+Date:   Fri Apr 12 21:20:23 2024 +0200
+
+    Initial commit
+
+commit afa14f7a77493c03e55001daecadac90484abeb0
+Author: aleksovska.elena29 <aleksovsla.elena29@gmail.com>
+Date:   Fri Apr 12 21:15:37 2024 +0200
+
+    Add starter code
+
+commit af05dc0f3522482b415bd57d153cc6a069d6b895
+Author: aleksovska.elena29 <aleksovsla.elena29@gmail.com>
+Date:   Fri Apr 12 21:11:07 2024 +0200
+
+    Initial commit
